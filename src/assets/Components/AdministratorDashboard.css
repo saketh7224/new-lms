@@ -1,0 +1,133 @@
+@import './StudentDashboard.css';
+
+/* Administrator-specific styles */
+.role-admin {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.admin-banner {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+.users-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.users-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th {
+  background: #f8fafc;
+  padding: 16px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.users-table td {
+  padding: 16px;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 14px;
+  color: #475569;
+}
+
+.users-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.users-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.user-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-cell img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.role-tag {
+  background: #f1f5f9;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.action-link {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 12px;
+  padding: 4px 8px;
+}
+
+.action-link:hover {
+  text-decoration: underline;
+}
+
+.status-badge.active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.alerts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.alert-item {
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 3px solid;
+}
+
+.alert-warning {
+  background: #fef3c7;
+  border-color: #f59e0b;
+}
+
+.alert-info {
+  background: #dbeafe;
+  border-color: #3b82f6;
+}
+
+.alert-success {
+  background: #d1fae5;
+  border-color: #10b981;
+}
+
+.alert-message {
+  font-size: 12px;
+  color: #475569;
+  margin-bottom: 6px;
+}
+
+.alert-time {
+  font-size: 11px;
+  color: #94a3b8;
+}

@@ -1,0 +1,119 @@
+@import './StudentDashboard.css';
+
+/* Instructor-specific styles */
+.role-instructor {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.instructor-banner {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.instructor-card {
+  border-left: 4px solid #10b981;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge.active {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.course-stats-row {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0;
+  padding: 12px;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.course-stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.stat-icon {
+  font-size: 16px;
+}
+
+.manage-btn,
+.review-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+}
+
+.manage-btn {
+  background: #10b981;
+  color: white;
+}
+
+.manage-btn:hover {
+  background: #059669;
+}
+
+.review-btn {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.review-btn:hover {
+  background: #e2e8f0;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.activity-item {
+  padding: 12px;
+  background: #f8fafc;
+  border-radius: 8px;
+  border-left: 3px solid #10b981;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.activity-student {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.activity-time {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.activity-action {
+  font-size: 12px;
+  color: #475569;
+  margin: 4px 0;
+}
+
+.activity-course {
+  font-size: 11px;
+  color: #64748b;
+  font-style: italic;
+}
